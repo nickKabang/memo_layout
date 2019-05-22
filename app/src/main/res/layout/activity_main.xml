@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:id="@+id/llTop"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:background="@color/colorBlue"
+            >
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/img_memo"
+                />
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:text="9 PM. My Memo"
+                android:gravity="center"
+                android:fontFamily="@font/wowahan"
+                android:textSize="20dp"
+                />
+
+            <ImageView
+                android:id="@+id/ivAdd"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/img_add"
+                android:scaleType="fitCenter"
+                android:layout_marginLeft="90dp"
+                />
+
+            <ImageView
+                android:id="@+id/ivGlass"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/img_glass"
+                android:scaleType="fitCenter"
+                android:layout_marginLeft="20dp"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:id="@+id/ivNote"
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/img_note"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="5dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/ivCalender"
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/img_calender"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="5dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/ivTrash"
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/img_trash"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="5dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/ivTheme"
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/img_theme"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="5dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/ivSetting"
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/img_setting"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="5dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/tvNote"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:text="노트"
+                    android:gravity="left||center"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:clickable="true"
+                    android:layout_marginBottom="10dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/wowahan"
+                    />
+
+                <TextView
+                    android:id="@+id/tvCalender"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:text="달력"
+                    android:gravity="left||center"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:clickable="true"
+                    android:layout_marginBottom="10dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/wowahan"
+                    />
+
+                <TextView
+                    android:id="@+id/tvTrash"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:text="휴지통"
+                    android:gravity="left||center"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:clickable="true"
+                    android:layout_marginBottom="10dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/wowahan"
+                    />
+
+                <TextView
+                    android:id="@+id/tvTheme"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:text="테마"
+                    android:gravity="left||center"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:clickable="true"
+                    android:layout_marginBottom="10dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/wowahan"
+                    />
+
+                <TextView
+                    android:id="@+id/tvSetting"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:text="설정"
+                    android:gravity="left||center"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:clickable="true"
+                    android:layout_marginBottom="10dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/wowahan"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
